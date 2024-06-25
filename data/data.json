@@ -49,6 +49,137 @@
       "slug": "story"
     }
   ],
+	"operations":[
+		  {
+    "operation_id": "oper0038",
+    "complete_modified_at": "2024-06-25T09:14:50.833Z",
+    "complete_created_at": "2024-06-25T09:14:50.808Z",
+    "complete_amount": 100,
+    "callbacks": [
+      {
+        "state": null,
+        "result": "complete",
+        "ack_key": "558ccddff5aa4c5a9907be3ae767ee86",
+        "payload": {
+          "card": {
+            "initial": {
+              "amount": 100,
+              "currency": "EUR"
+            },
+            "oper_type": "deposit",
+            "initial_changed": false,
+            "requested_changed": false
+          },
+          "rates": {
+            "EUR-AUD": 1.60899437583306,
+            "EUR-CAD": 1.46396746715087,
+            "EUR-USD": 1.072700104159,
+            "TRX-AUD": 0.181404949258074,
+            "TRX-CAD": 0.165053991538332,
+            "TRX-EUR": 0.112744302890525,
+            "TRX-USD": 0.120940825454
+          },
+          "crypto": [
+            {
+              "amount": 100,
+              "currency": "TRX__TRX__Shasta",
+              "to_address": "to_address0038"
+            }
+          ],
+          "result": "complete",
+          "deposit": {
+            "amount": 100,
+            "currency": "RUB"
+          },
+          "user_id": "user0038",
+          "channel_id": "channel0038",
+          "created_at": "2024-06-25T09:14:24.409",
+          "reference_id": "ref0038",
+          "current_status": "success",
+          "payment_product": "test_paymenet_product",
+          "client_operation_id": "coid0038",
+          "payment_method_type": "test_payment_method_type"
+        },
+        "internal": null,
+        "created_at": "2024-06-25 09:15:07.137000",
+        "modified_at": "2024-06-25 09:16:35.582000",
+        "send_result": "success",
+        "callback_url": "https://devnull-as-a-service.com/dev/null",
+        "send_failure": null,
+        "error_details": null,
+        "confirm_refill": 0
+      }
+    ],
+    "crypto_start": [
+      {
+        "amount": 100,
+        "to_addr": "to_address0038",
+        "currency": "TRX__TRX__Shasta",
+        "order_id": null,
+        "to_agent": null,
+        "action_id": "action0038",
+        "from_addr": null,
+        "blockchain": null,
+        "created_at": "2024-06-25 09:14:38.282000",
+        "from_agent": null,
+        "modified_at": "2024-06-25 09:14:38.391000",
+        "from_account": null,
+        "to_addr_type": null,
+        "blockchain_net": null,
+        "blockchain_coin": "TRX",
+        "to_addr_changed": 0,
+        "parent_fiat_amount": null,
+        "parent_fiat_currency": null
+      }
+    ],
+    "card_start": [
+      {
+        "oper_type": "deposit",
+        "action_id": "action0038",
+        "kyc_verification": 0,
+        "currency": "EUR",
+        "amount": 100,
+        "created_at": "2024-06-25 09:14:24.409000",
+        "modified_at": "2024-06-25 09:14:24.520000"
+      }
+    ],
+    "complete_currency": "RUB",
+    "payment_status": "success",
+    "operation_update_id": "737176793883219968",
+    "operation_create_id": "737174721964152832",
+    "oper_meta": {
+
+    },
+    "channel_id": "channel0038",
+    "ip_addr": "",
+    "user_id": "user0038",
+    "project_env": "develop",
+    "project": "testproject",
+    "service_env": "env",
+    "service": "app",
+    "operation_ack_id_update_at": "2024-06-25T09:18:18.79Z",
+    "client_operation_id": "coid0038",
+    "reference_id": "ref0038",
+    "operation_modified_at": "2024-06-25T09:18:22.355Z",
+    "operation_created_at": "2024-06-25T09:13:13.003Z",
+    "rates": {
+      "EUR-AUD": 1.60899437583306,
+      "EUR-CAD": 1.46396746715087,
+      "EUR-USD": 1.072700104159,
+      "TRX-AUD": 0.181404949258074,
+      "TRX-CAD": 0.165053991538332,
+      "TRX-EUR": 0.112744302890525,
+      "TRX-USD": 0.120940825454
+    },
+    "operation_state": "complete",
+    "payment_method_code": "test_method_method_code",
+    "payment_method_type": "test_payment_method_type",
+    "payment_product": "test_paymenet_product",
+    "external_guid_set": "ackid0038",
+    "current_status": "success"
+  }
+
+	],
   "authors": [
     {
       "name": "David Doe",
